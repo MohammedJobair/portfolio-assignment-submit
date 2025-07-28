@@ -128,3 +128,48 @@ body {
   color: #6b7280;
   font-size: 0.9rem;
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.reviews {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.stars {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
