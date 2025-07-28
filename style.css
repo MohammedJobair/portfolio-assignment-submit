@@ -281,3 +281,44 @@ h2 {
 .contact-form button:hover {
   background: #4338ca;
 }
+
+.footer {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  color: #888;
+}
+
+.footer .logo {
+  font-size: 2.5rem;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #888;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
+
