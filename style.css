@@ -96,3 +96,35 @@ body {
   max-width: 100%;
   border-radius: 20px;
 }
+
+.stats {
+  background: #eaeaff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin: 40px 20px;
+}
+
+.stats h2 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.stat-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #4f46e5;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
