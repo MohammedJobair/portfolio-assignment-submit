@@ -50,3 +50,49 @@ body {
   line-height: 1.4;
   margin-bottom: 10px;
 }
+
+.preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 200px;
+  flex-wrap: wrap;
+}
+
+.preview-text {
+  flex: 1;
+  min-width: 280px;
+  margin-right: 50px;
+}
+
+.preview-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.preview-text p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.preview-text button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.preview-image {
+  flex: 1;
+  text-align: right;
+  min-width: 280px;
+}
+
+.preview-image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
